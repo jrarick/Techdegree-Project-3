@@ -1,0 +1,186 @@
+/* Global Styles--*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lora';
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+.main-header {
+  background: #141f1f;
+  color: white;
+  margin: 0 0 30px 0;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+
+.main-header h1 {
+  margin: 0;
+}
+
+.intro {
+  padding: 0 15px;
+  margin: 0 auto 50px;
+  max-width: 700px;
+}
+
+#intro-p {
+  color: silver;
+}
+
+/* Hr Styles */
+
+hr {
+  max-width: 700px;
+  height: 3px;
+  color: black;
+  background: black;
+}
+
+body hr:nth-of-type(1) {
+  height: 4px;
+}
+
+/* Form Styles */
+
+
+form {
+  margin: 10px auto;
+  max-width: 700px;
+  background: darkgrey;
+}
+
+fieldset {
+  border-style: none;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+/* Input Styles */
+
+input[type="text"], input[type="email"], textarea, select {
+  margin: 5px auto;
+  padding: 15px;
+  width: 100%;
+  background: #f2f2f2;
+  border-style: none;
+  border-radius: 3px;
+  -webkit-transition: background .5s, padding .5s;
+}
+
+select:invalid {
+  color: grey;
+  font-style: italic;
+}
+
+input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  text-align: right;
+  font-style: italic;
+}
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  text-align: right;
+  font-style: italic;
+}
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  text-align: right;
+  font-style: italic;
+}
+input:-ms-input-placeholder {
+  /* Internet Explorer 10 */
+  text-align: right;
+  font-style: italic;
+}
+input::placeholder {
+  text-align: right;
+  font-style: italic;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: #d9d9d9;
+  padding: 25px;
+}
+
+/* Input Label Styles */
+
+label {
+  display: block;
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+  margin: 15px 0;
+  font-weight: normal;
+  font-size: initial;
+}
+
+.text-labels {
+  margin: 15px 0 5px 0;
+}
+
+.button-labels {
+  margin: 10px 0;
+}
+
+#zip {
+  width: 170px;
+  float: left;
+}
+
+#javascript-news {
+  margin-bottom: 15px;
+}
+
+#plain-selection {
+  margin-bottom: 35px;
+}
+
+/* Footer Styles */
+
+button {
+  border: none;
+  width: 95%;
+  color: white;
+  background: teal;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 16pt;
+  border-radius: 4px;
+}
+
+footer {
+  color: silver;
+  font-style: italic;
+  margin: 0 0 150px 0;
+}
+
+/* Tablet and Desktop Styles */
+
+@media (min-width: 768px) {
+  .text-labels {
+    float: left;
+    width: 20%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 80%;
+  }
+}
