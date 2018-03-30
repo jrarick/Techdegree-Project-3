@@ -84,27 +84,27 @@ select:invalid {
   font-style: italic;
 }
 
-input::-webkit-input-placeholder {
+.right-align-placeholder::-webkit-input-placeholder {
   /* WebKit browsers */
   text-align: right;
   font-style: italic;
 }
-input:-moz-placeholder {
+.right-align-placeholder:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   text-align: right;
   font-style: italic;
 }
-input::-moz-placeholder {
+.right-align-placeholder::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   text-align: right;
   font-style: italic;
 }
-input:-ms-input-placeholder {
+.right-align-placeholder:-ms-input-placeholder {
   /* Internet Explorer 10 */
   text-align: right;
   font-style: italic;
 }
-input::placeholder {
+.right-align-placeholder::placeholder {
   text-align: right;
   font-style: italic;
 }
@@ -131,7 +131,7 @@ h3 {
 }
 
 .text-labels {
-  margin: 15px 0 5px 0;
+  margin-top: 17.5px;
 }
 
 .button-labels {
