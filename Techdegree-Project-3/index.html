@@ -21,22 +21,23 @@
   <hr>
 
   <form action="index.html" method="post">
-    <legend>Contact Information</legend>
+
     <fieldset>
+      <legend>Contact Information</legend>
       <label for="name" class="text-labels">Full Name</label>
-      <input type="text" id="name" name="user_name" placeholder="Required" required>
+      <input type="text" id="name" name="user_name" placeholder="Required" class="right-align-placeholder" required>
 
       <label for="email" class="text-labels">Email</label>
-      <input type="email" id="email" name="user_email" placeholder="Required" required>
+      <input type="email" id="email" name="user_email" placeholder="Required" class="right-align-placeholder" required>
 
       <label for="phone" class="text-labels">Phone Number</label>
-      <input type="text" id="phone" name="user_phone" placeholder="(XXX) XXX-XXXX">
+      <input type="text" id="phone" name="user_phone" placeholder="(XXX) XXX-XXXX" class="right-align-placeholder">
 
       <label for="address" class="text-labels">Address</label>
-      <input type="text" id="address" name="user_address" placeholder="Address">
+      <input type="text" id="address" name="user_address" placeholder="Address" class="right-align-placeholder">
 
       <label for="city" class="text-labels">City</label>
-      <input type="text" id="city" name="user_city" placeholder="Address">
+      <input type="text" id="city" name="user_city" placeholder="City" class="right-align-placeholder">
 
       <label for="state" class="text-labels">State</label>
       <select required id="state" name="user_state">
@@ -100,8 +101,10 @@
 
     <hr>
 
-    <legend>Newsletter</legend>
+
     <fieldset>
+      <legend>Newsletter</legend>
+
       <h3>Select the newsletters you would like to receive</h3>
 
       <label for="html-news" class="button-labels"><input type="checkbox" id="html-news" name="html_news">HTML News</label>
